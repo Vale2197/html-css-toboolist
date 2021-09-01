@@ -44,6 +44,32 @@ header .logo h1 {
 } 
 
 /* style add task/section buttons */
+#buttons {
+    padding: 14px 42px 6px 42px;
+    border-bottom: 2px solid #F6F8F9;
+}
+
+#buttons .addTask {
+    border: none;
+    padding: 7px 10px;
+    border-radius: 8px;
+    color: white;
+    background-color: #45ABEA;
+    margin-right: 2px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+#buttons .addSection {
+    border: 1px solid lightgray;
+    padding: 7px 10px;
+    border-radius: 8px;
+    color: lightgray;
+    margin-right: 2px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
 /* /style add task/section buttons */
 
 /* style section NEW TASK */
