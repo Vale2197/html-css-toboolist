@@ -252,3 +252,12 @@ header .logo h1 {
     background-color: #45ABEA;
 }
 /* /style section UPCOMING */
+
+/* style footer */
+footer {
+    background-color: white;
+    height: 50px;
+    font-size: 13px;
+    padding: 17px 30px 17px 30px;
+}
+/* /style footer */
