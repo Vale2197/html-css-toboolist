@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6F8F9;
+}
+/* style barra  logo e titolo */
+header {
+    background-color: white;
+    height: 73px;
+    position: relative;
+}
+
+header .logo {
+    display: inline-block;
+    height: 100%;
+    line-height: 73px;
+    padding-left: 20px;
+}
+
+header .logo img {
+    vertical-align: middle;
+}
+
+header .logo h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-family:'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+/* /style barra logo e titolo */
