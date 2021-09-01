@@ -36,7 +36,7 @@ header .logo h1 {
 /* /style barra logo e titolo */
 
 #mainContainer {
-    width: 50vw;
+    width: 70vw;
     margin: auto;
     background-color: white;
     margin-top: 3rem;
@@ -183,4 +183,72 @@ header .logo h1 {
 #today .summit p span {
     background-color: #F29E33;
 }
+
+#today .summit {
+    margin-bottom: 0;
+}
 /* /style section TODAY */
+
+/* style section UPCOMING */
+#upcoming {
+    padding-top: 2rem;
+    padding-left: 2.5rem;
+}
+
+#upcoming h2 {
+    padding-bottom: 10px;
+}
+
+#upcoming h2 span {
+    font-size: 15px;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+#upcoming .checkmark {
+    font-weight: bold;
+    color: #ACE0D5;
+    border: 1px solid #ACE0D5;
+    border-radius: 50%;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#upcoming p {
+    display: inline-block;
+}
+
+#upcoming p span {
+    color: white;
+    padding: 5px 9px;
+    border-radius: 21px;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+#upcoming .listItem {
+    margin-bottom: 25px;
+}
+
+#upcoming .meeting .checkmark {
+    color: red;
+    border-color: red;
+}
+
+#upcoming .refresh p span {
+    background-color: #D863A1;
+}
+
+#upcoming .sales p span {
+    background-color: #B0C926;
+}
+
+#upcoming .calendar p span {
+    background-color: #45ABEA;
+}
+/* /style section UPCOMING */
